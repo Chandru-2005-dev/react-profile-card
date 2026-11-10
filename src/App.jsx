@@ -1,27 +1,11 @@
 import "./App.css";
-import Profile from "./Profilecard";
+import Dynamic from "./dynamic";
+
 
 function App() {
   return (
     <>
-    <Profile
-      name="Jill Scott"
-      role="Frontend Developer"
-      content="Transforming ideas inro realities, creating interfaces that inspire
-      and engage users dreams."
-    ></Profile>
-    <Profile
-      name="Jill Scott"
-      role="Frontend Developer"
-      content="Transforming ideas inro realities, creating interfaces that inspire
-      and engage users dreams."
-    ></Profile>
-    <Profile
-      name="Jill Scott"
-      role="Frontend Developer"
-      content="Transforming ideas inro realities, creating interfaces that inspire
-      and engage users dreams."
-    ></Profile>
+    <Dynamic/>
     </>
   );
 }
